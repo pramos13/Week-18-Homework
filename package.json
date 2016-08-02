@@ -1,0 +1,38 @@
+{
+  "name": "mongo-cheerio-scraper",
+  "version": "1.0.0",
+  "description": "A NodeJs web scraper app that uses Mongo and Cheerio to allow users to comment on articles",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pramos13/Week-18-Homework.git"
+  },
+  "keywords": [
+    "'Nodejs'",
+    "'Cheerio'",
+    "'body-parser'",
+    "'request'",
+    "'express-handlebars'",
+    "'express'",
+    "'mongojs'",
+    "'mongodb'"
+  ],
+  "author": "Phillip Ramos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pramos13/Week-18-Homework/issues"
+  },
+  "homepage": "https://github.com/pramos13/Week-18-Homework#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.20.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongojs": "^2.4.0",
+    "request": "^2.74.0"
+  }
+}
