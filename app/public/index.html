@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Latest Sports News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="public/app/css/reset.css">
+<!--styles -->
+  <link rel="stylesheet" type="text/css" href="public/app/css/style.css"">
+<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!-- Latest compiled and minified js(jquery) -->
+	<script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+  			<h1>Sports News!</h1>
+  			<p>The latest news in sports to keep you up to date!</p>
+  			<a href='/scrape'><button type="button" class="btn btn-default">More News</button></a>
+		</div>
+		<div class="panel panel-default">
+  			<div class="panel-heading">
+   				<h3 class="panel-title"><span>Sports Time</span></h3>
+ 			 </div>
+  			 <div class="panel-body">
+  			 	<div class="row">
+  			 		<div class="col-md-12">
+    		 			<form>
+    		 				<label for="comment">Comment</label>
+    		 				<input name="comment" id="comment" class="form-control"></input>
+    		 				</br>
+							<button type="button" class="btn btn-default" data-ref="_id">Submit</button>
+    		 			</form>
+    		 		</div>
+    		 	</div>
+    		 	</br>
+    		 	<div class="row">
+    		 		<div class="col-md-12">
+    		 			<div class="well" id="savedComment"><span><p>commments</p></span></div>
+    		 		</div>
+    		 	</div>
+  			 </div>
+		</div>
+	</div>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
